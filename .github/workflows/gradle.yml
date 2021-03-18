@@ -28,4 +28,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: threadtear
-        path: build/libs/*.jar
+        path: |
+          **.jar
+          **/**.jar
+
